@@ -23,7 +23,7 @@ Constrained Design
     - VPC when/if ECS
     - Vend/Update Step Function for managing config
       - Update Lambda images
-      - Ignore layers to constrain to monolith QL/Security processes unless requested otherwise. Layers - immediate future.
+      - Layers or at least a gold container build
     - Create DynamoDB Table(s)
     - Actions/RIE/UT/ECR Scan container QL loop for now, ECS future optional
     - X-Ray and CWM time constrained
